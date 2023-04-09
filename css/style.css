@@ -1,0 +1,237 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+    background-color: #ffffff;
+    color: #0d2a40;
+}
+
+.dotted-hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 15px;
+    border-color: #0f3744;
+    height: 0px;
+    width: 7%;
+}
+
+.attribution{
+    margin: 0;
+    padding: 2px;
+    padding-right: 10px;
+    font-family: system-ui;
+    color: #ffffff;
+    background-color: black;
+    text-align: right;
+    bottom: 0;
+    position: relative;
+}
+
+.xattribution{
+    margin: 0;
+    padding: 2px;
+    padding-right: 10px;
+    font-family: system-ui;
+    color: #a8e2f3;
+    text-align: right;
+    bottom: 0;
+    position: relative;
+}
+
+.xattribution a:visited{
+    color: #5aafa5;
+}
+
+colors{
+    background-color: #a8e2f3;
+    color: #0f3744;
+    background-color: #5aafa5;
+    color: #def6ff;
+}
+
+
+.banner{
+    background-color: #000000;
+    color: #def6ff;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.xbanner{
+    background-color: #5aafa5;
+    color: #000000;
+    width: 100%;
+    height: 18vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../images/background.jpg");
+    background-size: cover;
+    background-position: top;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 250px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul a{
+    text-decoration: none;
+    color: #def6ff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar ul li::after{
+    content:'';
+    height: 3px;
+    width: 0;
+    background: #a8e2f3;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.4s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #def6ff;
+}
+
+.content h1{
+    font-size: 60px;
+    margin-top: 80px;
+}
+
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 25px;
+}
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 3px solid #def6ff;
+    background: transparent;
+    color: #def6ff;
+    font-size: 17px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span{
+    background: #0f3744;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.4s;
+}
+
+button:hover span{
+    width: 100%; 
+}
+
+.question-content{
+    width: 100%;
+    position: relative;
+    top: 0;
+    text-align: center;
+    color: #0f3744;
+}
+
+.question-content h1{
+    font-size: 60px;
+    margin-top: 15px;
+}
+.schedule-content{
+    width: 100%;
+    position: relative;
+    top: 0;
+    text-align: center;
+    color: #0f3744;
+}
+
+.schedule-content h1{
+    font-size: 60px;
+    margin-top: 15px;
+    text-decoration: underline;
+}
+
+.xbutton{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 15px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 3px solid #0f3744;
+    background: transparent;
+    color: #0f3744;
+    font-size: 17px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.xspan{
+    background: #5aafa5;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.4s;
+}
+
+.back-button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 15px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 3px solid #0f3744;
+    background: transparent;
+    color: #0f3744;
+    font-size: 17px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
