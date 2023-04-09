@@ -15,6 +15,14 @@ body{
     width: 7%;
 }
 
+.my-hr{
+    border-style: none;
+    border-top-style: dashed;
+    border-width: 10px;
+    border-color: #0f3744;
+    height: 0px;
+}
+
 .attribution{
     margin: 0;
     padding: 2px;
@@ -192,8 +200,39 @@ button:hover span{
     text-decoration: underline;
 }
 
+.dev-content{
+    width: 100%;
+    position: relative;
+    top: 0;
+    text-align: left;
+    color: #0f3744;
+    margin-left: 10px;
+}
+
+.dev-content h1{
+    font-size: 40px;
+    margin-top: 15px;
+    text-decoration: underline;
+}
+.dev-content h2{
+    font-size: 30px;
+    margin-top: 15px;
+    text-decoration: underline;
+}
+
+.dev-content p{
+    margin: 20px auto;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.dev-content ul{
+    margin: auto;
+}
+
 .xbutton{
-    width: 200px;
+    width: 270px;
     padding: 15px 0;
     text-align: center;
     margin: 20px 15px;
